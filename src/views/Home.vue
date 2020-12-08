@@ -3,14 +3,14 @@
     <div class="title">{{ title }}</div>
     <div class="subtitle">{{ subtitle }}</div>
     <div class="subtitle">如果没有播放，请检查是否已允许浏览器使用 Flash 播放</div>
-    <div class="actions">
+<!--    <div class="actions">
       <Button type="success" size="large">
         <a href="https://github.com/fuyi501/web-video-live">VIEW ON GITHUB</a>
       </Button>
       <Button type="error" size="large" style="margin-left:2em;">
         <a href="https://github.com/fuyi501/web-video-live/issues">ISSUES</a>
       </Button>
-    </div>
+    </div>-->
     <div class="example-title"> # vue-video-player 播放 RTMP 流</div>
     <Row type="flex" justify="center" :gutter="20">
       <Col :span="18">
