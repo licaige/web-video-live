@@ -3,14 +3,14 @@
     <div class="title">{{ title }}</div>
     <div class="subtitle">{{ subtitle }}</div>
     <div class="subtitle">如果没有播放，请检查是否已允许浏览器使用 Flash 播放</div>
-<!--    <div class="actions">
+    <div class="actions">
       <Button type="success" size="large">
         <a href="https://github.com/fuyi501/web-video-live">VIEW ON GITHUB</a>
       </Button>
       <Button type="error" size="large" style="margin-left:2em;">
         <a href="https://github.com/fuyi501/web-video-live/issues">ISSUES</a>
       </Button>
-    </div>-->
+    </div>
     <div class="example-title"> # vue-video-player 播放 RTMP 流</div>
     <Row type="flex" justify="center" :gutter="20">
       <Col :span="18">
@@ -77,12 +77,10 @@ export default {
       title: 'web 播放视频流/直播',
       subtitle: '使用 vue-video-player、flv.js 播放 RTMP、HLS、HTTP-FLV 视频流',
       videoInfo: [
-        // {title: '香港卫视', videoSrc: 'rtmp://live.hkstv.hk.lxdns.com/live/hks1'},
-        {title: '香港卫视', videoSrc: 'rtmp://202.69.69.180:443/webcast/bshdlive-pc'},
-        // {title: '香港财经', videoSrc: 'rtmp://202.69.69.180:443/webcast/bshdlive-pc'},
+        {title: '香港卫视', videoSrc: 'rtmp://live.hkstv.hk.lxdns.com/live/hks1'},
+        {title: '香港财经', videoSrc: 'rtmp://202.69.69.180:443/webcast/bshdlive-pc'},
         {title: '湖南卫视', videoSrc: 'rtmp://58.200.131.2:1935/livetv/hunantv'},
-        // {title: '美国中文电视', videoSrc: 'rtmp://media3.sinovision.net:1935/live/livestream'}
-        // {title: '美国中文电视', videoSrc: 'rtmp://58.200.131.2:1935/livetv/hunantv'}
+        {title: '美国中文电视', videoSrc: 'rtmp://media3.sinovision.net:1935/live/livestream'}
       ],
       imgSrc: '', // 图片路径
       canvas: '',
